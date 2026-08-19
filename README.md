@@ -1,73 +1,140 @@
-# Welcome to your Lovable project
+# Pharmacy Management System
 
-## Project info
+A modern, role-based Pharmacy Management System built with **React, TypeScript, Vite, Tailwind CSS, and shadcn/ui**. The system provides dedicated dashboards and interfaces for managing pharmacy operations through role-based access.
 
-**URL**: https://lovable.dev/projects/f6b3688b-cbfe-47c3-9533-d7e854c0faca
+## 📌 Project Overview
 
-## How can I edit this code?
+The Pharmacy Management System is designed to simplify and organize day-to-day pharmacy activities through a centralized web application.
 
-There are several ways of editing your application.
+It provides different user roles with dedicated dashboards and features, helping users efficiently manage medicines, inventory, sales, users, and other pharmacy operations.
 
-**Use Lovable**
+## ✨ Key Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f6b3688b-cbfe-47c3-9533-d7e854c0faca) and start prompting.
+* 🔐 Role-based authentication and access
+* 👨‍💼 Admin dashboard
+* 💊 Medicine and inventory management
+* 📦 Stock monitoring
+* 💰 Sales and pharmacy operations
+* 👥 User management
+* 📊 Dashboard with pharmacy-related information
+* 🎨 Responsive and modern user interface
+* 🧭 Role-specific navigation and pages
 
-Changes made via Lovable will be committed automatically to this repo.
+## 👥 User Roles
 
-**Use your preferred IDE**
+The application supports role-based functionality so that users can access features according to their responsibilities.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Admin** – Manage users, system information, and overall pharmacy operations
+* **Pharmacist** – Manage medicines, inventory, and pharmacy-related activities
+* **Other authorized users** – Access features according to their assigned role
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Technologies Used
 
-Follow these steps:
+| Technology   | Purpose                       |
+| ------------ | ----------------------------- |
+| React        | Frontend development          |
+| TypeScript   | Type-safe programming         |
+| Vite         | Development and build tool    |
+| Tailwind CSS | Styling and responsive design |
+| shadcn/ui    | UI components                 |
+| React Router | Application routing           |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📂 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```text
+Pharmacy-Management-System/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── README.md
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Prerequisites
+
+Make sure you have the following installed:
+
+* Node.js
+* npm
+* Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/gayatrigore07/Pharmacy-Management-System.git
+```
+
+Navigate to the project:
+
+```bash
+cd Pharmacy-Management-System
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at the local development URL shown in your terminal.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🖥️ Application Workflow
 
-**Use GitHub Codespaces**
+```text
+Login
+  ↓
+Authentication
+  ↓
+Role Identification
+  ↓
+Role-Based Dashboard
+  ↓
+Pharmacy Operations
+  ├── Medicine Management
+  ├── Inventory Management
+  ├── Sales
+  └── User/System Management
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 Project Objective
 
-## What technologies are used for this project?
+The main objective of this project is to develop a user-friendly pharmacy management platform that organizes pharmacy operations and provides role-specific access to important functionality.
 
-This project is built with:
+## 🔮 Future Enhancements
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Database integration
+* Backend API integration
+* Real-time inventory updates
+* Low-stock notifications
+* Medicine expiry alerts
+* Sales reports and analytics
+* Prescription management
+* Cloud deployment
 
-## How can I deploy this project?
+## 👩‍💻 Developer
 
-Simply open [Lovable](https://lovable.dev/projects/f6b3688b-cbfe-47c3-9533-d7e854c0faca) and click on Share -> Publish.
+**Gayatri Gore**
 
-## Can I connect a custom domain to my Lovable project?
+B.Tech Information Technology
+Interested in **Artificial Intelligence, Machine Learning, Data Science, and Software Development**.
 
-Yes, you can!
+## 📄 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is developed for educational and project purposes.
